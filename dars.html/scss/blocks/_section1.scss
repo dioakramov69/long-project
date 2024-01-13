@@ -1,0 +1,129 @@
+.agency-section {
+  background-color: #FDF0E9;
+}
+
+.design-container {
+  background-image: url(../../images69/backgond.png);
+  background-repeat: no-repeat;
+  background-position: left 50px;
+  background-size: auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.about-text {
+  color: var(#EF6D58);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.experience-h2 {
+  color: var(#391400);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+
+.provide-text {
+  color: var( #391400);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;
+}
+
+.big-text {
+  color: var(rgba(57, 20, 0, 0.64));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.about-btn {
+  padding: 18px 33px;
+  color: #391400;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background-color: #fff;
+  border: none;
+}
+
+.experience__section {
+  width: 500px;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 1091px) {
+  .experience__section {
+    padding-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .design-container {
+    background-image: url(../../images69/backgond.png);
+    background-repeat: no-repeat;
+    background-position: top 50px center;
+    background-size: 329px;
+  }
+
+  .about-text {
+    color: var( #EF6D58);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+  }
+
+  .experience-h2 {
+    color: var( #391400);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+  }
+
+  .provide-text {
+    color: var(#391400);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .big-text {
+    color: var( rgba(57, 20, 0, 0.64));
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .about-btn {
+    color: #391400;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .experience__section {
+    padding-top: 300px;
+    width: 307px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

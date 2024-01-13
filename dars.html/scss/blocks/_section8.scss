@@ -1,0 +1,94 @@
+.our-agency-section {
+  background-color: #FDF0E9;
+  padding-top: 20px;
+}
+
+.agency-service-h5 {
+  color: #EF6D58;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.how-title-h3 {
+  color: #391400;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  width: 370px;
+}
+
+.combined-shape-icon {
+  background-color: #EF6C57;
+  padding: 30px 30px 30px 30px;
+  border-radius: 50%;
+  margin-top: 48px;
+  margin-left: 48px;
+}
+
+.design-title-h4 {
+  color: #391400;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-left: 48px;
+}
+
+.agency-text {
+  color: rgba(57, 20, 0, 0.64);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 294px;
+  margin-left: 48px;
+}
+
+.learn-link {
+  margin-left: 48px;
+}
+
+.box-div-details {
+  width: 391px;
+  height: 400px;
+  border-radius: 6px 0px 0px 6px;
+  border: 1px solid #F3D1BF;
+}
+
+.all-boxes {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1050px) {
+  .all-boxes {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .our-agency-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 488px) {
+  .our-agency-div {
+    color: #391400;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+  }
+
+  .box-div-details {
+    width: 329px;
+    height: 416px;
+  }
+}

@@ -1,0 +1,75 @@
+.unlock-section {
+  background-color: #FDF0E9;
+}
+
+.video-reel-h5 {
+  color: #EF6D58;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.unlock-h3 {
+  color: #391400;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.design-text {
+  color: rgba(57, 20, 0, 0.64);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.unlock-div {
+  width: 469px;
+  margin-left: auto;
+}
+
+.unlock__container {
+  padding-top: 130px;
+  padding-bottom: 50px;
+  background-image: url(../../images69/Bitmap.svg);
+  background-repeat: no-repeat;
+  background-size: 570px;
+  background-position: left center ;
+}
+
+@media only screen and (max-width: 1073px) {
+  .unlock-div {
+    padding-top: 300px;
+    margin: 0 auto;
+  }
+
+  .unlock__container {
+    background-image: url(../../images69/Bitmap.svg);
+    background-repeat: no-repeat;
+    background-position: top 63px center;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .unlock__container {
+    background-image: url(../../images69/Bitmap.svg);
+    background-repeat: no-repeat;
+    background-position: top 63px center;
+    background-size: 329px;
+  }
+
+  .unlock-div {
+    width: 329px;
+    padding-top: 130px;
+  }
+
+  .unlock-h3 {
+    color: #391400;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+  }
+}
